@@ -25,7 +25,6 @@ import javax.swing.JTextArea;
 import javax.swing.KeyStroke;
 
 public class NotePadGUI implements ActionListener {
-
 	JFrame frame = new JFrame();
 	JTextArea tArea = new JTextArea(20, 20);
 	Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
