@@ -186,5 +186,6 @@ public class NotePadGUI implements ActionListener {
 			}
 			saved=true;
 		}
+		System.out.println("trying");
 	}
 }
