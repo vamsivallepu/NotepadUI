@@ -49,10 +49,13 @@ public class NotePadGUI implements ActionListener {
 		JMenuItem item7 = new JMenuItem("Select All");
 		JMenuItem item8 = new JMenuItem("About");
 		JMenuItem itemSave = new JMenuItem("Save");
+		
 		KeyStroke ctrlS = KeyStroke.getKeyStroke(KeyEvent.VK_S, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask());
 		item3.setAccelerator(ctrlS);
 		KeyStroke ctrlSp = KeyStroke.getKeyStroke(KeyEvent.VK_SPACE, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask());
 		itemSave.setAccelerator(ctrlSp);
+		KeyStroke ctrlO=KeyStroke.getKeyStroke(KeyEvent.VK_O, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask());
+		item1.setAccelerator(ctrlO);
 
 		item1.setActionCommand("open");
 		item1.addActionListener(this);
